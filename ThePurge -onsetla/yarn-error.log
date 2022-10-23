@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\aamem\.node\corepack\yarn\1.22.15\bin\yarn.js add ethers
+
+PATH: 
+  C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Users\aamem\AppData\Roaming\npm\truffle;C:\Program Files\Git\cmd;C:\Users\aamem\AppData\Local\Programs\Python\Python39\;C:\Users\aamem\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\aamem\.local\share\solana\install\active_release\bin;C:\Users\aamem\.cargo\bin;C:\Users\aamem\AppData\Roaming\npm\truffle;C:\Users\aamem\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aamem\AppData\Roaming\npm;;C:\Users\aamem\AppData\Local\SugarCLI
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\NFTWORK\Battle Slayers\BattleSlayers\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "boredape-nft-minting-dapp",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "export": "next build && next export",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@alch/alchemy-web3": "^1.2.4",
+      "@nomiclabs/hardhat-ethers": "^2.0.5",
+      "@nomiclabs/hardhat-etherscan": "^3.0.1",
+      "@nomiclabs/hardhat-waffle": "^2.0.2",
+      "@openzeppelin/contracts": "^4.5.0",
+      "@web3-onboard/coinbase": "^2.0.0",
+      "@web3-onboard/core": "^2.2.2",
+      "@web3-onboard/fortmatic": "^2.0.2",
+      "@web3-onboard/injected-wallets": "^2.0.5",
+      "@web3-onboard/react": "^2.1.1",
+      "@web3-onboard/walletconnect": "^2.0.1",
+      "chai": "^4.3.6",
+      "dotenv": "^16.0.0",
+      "erc721a": "^4.2.2",
+      "ethereum-waffle": "^3.4.0",
+      "ethers": "^5.7.1",
+      "hardhat": "^2.8.4",
+      "keccak256": "^1.0.6",
+      "merkletreejs": "^0.2.30",
+      "next": "12.1.0",
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.2",
+      "eslint": "8.10.0",
+      "eslint-config-next": "12.1.0",
+      "postcss": "^8.4.7",
+      "tailwindcss": "^3.0.23"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
